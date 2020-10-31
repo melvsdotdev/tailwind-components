@@ -122,3 +122,55 @@
   </button>
   ```
 </details>
+
+### Advanced
+Rounded version of basic and outlined buttons with transition
+
+<div class="flex w-full text-center py-16 rounded-t-md">
+  <div class="flex-grow">
+    <button class="transition duration-500 ease-in-out rounded bg-blue-500 text-white px-4 py-2 hover:bg-blue-600">
+      Basic button
+    </button>
+  </div>
+  <div class="flex-grow">
+    <button class="transition duration-500 ease-in-out rounded-full bg-blue-500 text-white px-4 py-2 hover:bg-blue-600">
+      Basic rounded button 
+    </button>
+  </div>
+  <div class="flex-grow">
+    <button class="transition duration-500 ease-in-out rounded border border-blue-500 text-blue-500 hover:text-white px-4 py-2 hover:bg-blue-500">
+      Outlined button
+    </button>
+  </div>
+  <div class="flex-grow">
+    <button class="transition duration-500 ease-in-out rounded-full border border-blue-500 text-blue-500 hover:text-white px-4 py-2 hover:bg-blue-500">
+      Outlined rounded button
+    </button>
+  </div>
+</div>
+
+<details class="border border-gray-300 rounded-md px-4">
+  <summary class="text-center font-bold cursor-pointer focus:outline-none py-2">Show Code</summary>
+
+  ```html
+  <!-- Basic Button  -->
+  <button class="transition duration-500 ease-in-out rounded bg-blue-500 text-white px-4 py-2 hover:bg-blue-600">
+    Basic button
+  </button>
+
+  <!-- Basic Rounded Button  -->
+  <button class="transition duration-500 ease-in-out rounded-full bg-blue-500 text-white px-4 py-2 hover:bg-blue-600">
+    Basic rounded button 
+  </button>
+  
+  <!-- Outlined Button  -->
+  <button class="transition duration-500 ease-in-out rounded border border-blue-500 text-blue-500 hover:text-white px-4 py-2 hover:bg-blue-500">
+    Outlined button
+  </button>
+  
+  <!-- Outlined Rounded Button  -->
+  <button class="transition duration-500 ease-in-out rounded-full border border-blue-500 text-blue-500 hover:text-white px-4 py-2 hover:bg-blue-500">
+    Outlined rounded button
+  </button>
+  ```
+</details>
