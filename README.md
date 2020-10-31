@@ -10,6 +10,11 @@ Note: This project is to help the members of FreeCodeCamp Antipolo local-study g
 
 Visit the [Official Website](https://tailwindcss.com)
 
+### Requirements
+
+- NodeJS 12.x (https://nodejs.org)
+- Docsify CLI (https://docsify.js.org/#/quickstart?id=quick-start)
+
 ### Getting Started
 
 To contribute to this project, you must be assigned to an issue before you make a pull request. Please follow the steps below:
@@ -26,7 +31,12 @@ To contribute to this project, you must be assigned to an issue before you make 
     git checkout -b ***YOUR-USERNAME**
     ```
     Replace `**YOUR-USERNAME**` with your github username.
-5. Push your changes and make a pull request! :tada:
+5. Preview your website:
+    ```
+    docsify serve docs
+    ```
+    Note: Make sure you have Docsify CLI installed globally
+6. Push your changes and make a pull request! :tada:
 
 ### Resources
 
