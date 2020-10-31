@@ -3,7 +3,7 @@
 
 ### Basic
 
-<div class="flex w-full text-center py-16 rounded-t-md">
+<div class="flex w-full text-center py-16">
   <div class="flex-grow">
     <button class="rounded bg-gray-100 text-gray-700 px-4 py-2 hover:bg-gray-200">
       Default
@@ -64,7 +64,7 @@
 
 ### Outlined
 
-<div class="flex w-full text-center py-16 rounded-t-md">
+<div class="flex w-full text-center py-16">
   <div class="flex-grow">
     <button class="rounded border border-gray-400 text-gray-700 px-4 py-2 hover:bg-gray-400">
       Default
