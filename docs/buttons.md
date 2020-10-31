@@ -3,28 +3,28 @@
 
 ### Basic
 
-<div class="flex w-full text-center py-16 rounded-t-md">
-  <div class="flex-grow">
+<div class="flex flex-col md:flex-row w-full text-center py-16">
+  <div class="flex-grow py-2 md:py-0">
     <button class="rounded bg-gray-100 text-gray-700 px-4 py-2 hover:bg-gray-200">
       Default
     </button>
   </div>
-  <div class="flex-grow">
+  <div class="flex-grow py-2 md:py-0">
     <button class="rounded bg-blue-500 text-white px-4 py-2 hover:bg-blue-600">
       Primary
     </button>
   </div>
-  <div class="flex-grow">
+  <div class="flex-grow py-2 md:py-0">
     <button class="rounded bg-green-500 text-white px-4 py-2 hover:bg-green-600">
       Success
     </button>
   </div>
-  <div class="flex-grow">
+  <div class="flex-grow py-2 md:py-0">
     <button class="rounded bg-yellow-500 text-white px-4 py-2 hover:bg-yellow-600">
       Warning
     </button>
   </div>
-  <div class="flex-grow">
+  <div class="flex-grow py-2 md:py-0">
     <button class="rounded bg-red-500 text-white px-4 py-2 hover:bg-red-600">
       Danger
     </button>
@@ -64,28 +64,28 @@
 
 ### Outlined
 
-<div class="flex w-full text-center py-16 rounded-t-md">
-  <div class="flex-grow">
-    <button class="rounded border border-gray-400 text-gray-700 px-4 py-2 hover:bg-gray-400">
+<div class="flex flex-col md:flex-row w-full text-center py-16">
+  <div class="flex-grow py-2 md:py-0">
+    <button class="rounded border border-gray-200 text-gray-700 px-4 py-2 hover:bg-gray-200">
       Default
     </button>
   </div>
-  <div class="flex-grow">
+  <div class="flex-grow py-2 md:py-0">
     <button class="rounded border border-blue-500 text-blue-500 hover:text-white px-4 py-2 hover:bg-blue-500">
       Primary
     </button>
   </div>
-  <div class="flex-grow">
+  <div class="flex-grow py-2 md:py-0">
     <button class="rounded border border-green-500 text-green-500 hover:text-white px-4 py-2 hover:bg-green-500">
       Success
     </button>
   </div>
-  <div class="flex-grow">
+  <div class="flex-grow py-2 md:py-0">
     <button class="rounded border border-yellow-500 text-yellow-500 hover:text-white px-4 py-2 hover:bg-yellow-500">
       Warning
     </button>
   </div>
-  <div class="flex-grow">
+  <div class="flex-grow py-2 md:py-0">
     <button class="rounded border border-red-500 text-red-500 hover:text-white px-4 py-2 hover:bg-red-500">
       Danger
     </button>
@@ -126,23 +126,23 @@
 ### Advanced
 Rounded version of basic and outlined buttons with transition
 
-<div class="flex w-full text-center py-16 rounded-t-md">
-  <div class="flex-grow">
+<div class="flex flex-col md:flex-row w-full text-center py-16 rounded-t-md">
+  <div class="flex-grow py-2 md:py-0">
     <button class="transition duration-500 ease-in-out rounded bg-blue-500 text-white px-4 py-2 hover:bg-blue-600">
       Basic button
     </button>
   </div>
-  <div class="flex-grow">
+  <div class="flex-grow py-2 md:py-0">
     <button class="transition duration-500 ease-in-out rounded-full bg-blue-500 text-white px-4 py-2 hover:bg-blue-600">
       Basic rounded button 
     </button>
   </div>
-  <div class="flex-grow">
+  <div class="flex-grow py-2 md:py-0">
     <button class="transition duration-500 ease-in-out rounded border border-blue-500 text-blue-500 hover:text-white px-4 py-2 hover:bg-blue-500">
       Outlined button
     </button>
   </div>
-  <div class="flex-grow">
+  <div class="flex-grow py-2 md:py-0">
     <button class="transition duration-500 ease-in-out rounded-full border border-blue-500 text-blue-500 hover:text-white px-4 py-2 hover:bg-blue-500">
       Outlined rounded button
     </button>
